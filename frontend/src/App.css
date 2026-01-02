@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5; /* light background */
+  color: #333; /* dark text for contrast */
+  font-family: "Inter", system-ui, sans-serif;
+  display: flex;
+  justify-content: center; /* center everything horizontally */
+  align-items: flex-start; /* align content to top */
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.app {
+  max-width: 1100px;
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  color: #111;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  justify-items: center; /* center cards */
+}
+
+.card {
+  width: 100%;
+  max-width: 360px; /* increased from 320px */
+  min-height: 200px; /* added to make them taller */
+  background: #ffffff; /* light card */
+  border-radius: 14px;
+  padding: 26px; /* slightly more padding */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #ddd;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 14px;
+  color: #111;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.card span {
+  color: #777;
+}
+
+.copies {
+  margin-top: 14px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #eee;
+  font-weight: 600;
+  color: #333;
+}
