@@ -10,9 +10,7 @@ This project implements complete ***CRUD operations*** with proper validations a
 - **Frontend:** React, Axios  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB (Mongoose)  
-- **Testing Tools:** Postman, MongoDB Compass / Atlas  
-
-> **Note:** The MongoDB database is ***not included*** in this repository.
+- **Testing Tools:** Postman, MongoDB Shell
 
 ---
 
